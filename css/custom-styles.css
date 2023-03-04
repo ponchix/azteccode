@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Revamped';
+    src: url('../Font/Revamped.otf') format("opentype");
+}
+
+:root{
+    --font:'Revamped';
+    --primary:#354CA0;
+    --secondary:#FAF064;
+    --accent:#AB8622;
+    --btn:#6384F7;
+
+}
+
+
+
+body {
+    font-family: 'Revamped' !important;
+}
+
+.logo {
+    width: 350px;
+}
+
+.face_title {
+    font-family:var(--font);
+    font-weight: 100 !important;
+    letter-spacing: 8px;
+}
+.face-subtitle{
+    font-family: var(--font);
+    color:var(--secondary) !important;
+}
+#hero .btn-get-started {
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    color: #fff;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  #hero .btn-services {
+    background: var(--accent);
+    border: 2px solid var(--accent);
+    color: white;
+  }
+  
+  #hero .btn-services:hover {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+  }
