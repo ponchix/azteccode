@@ -14,7 +14,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #ec0303;
+  color: #03c5ec;
   outline: none;
   text-decoration: none;
 }
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(7, 40, 173, 0.655);
+  background: rgba(7, 40, 173, 0.596);
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -302,17 +302,19 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Meu Styling */
 .nav-menu a {
   padding: 10px 15px;
+  margin:  0px 0px 0px 15px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 18px;
   outline: none;
+  font-family: var(--font-tech);
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #eb6003;
+  color: #03C4EB;
 }
 
 .nav-menu ul {
@@ -485,7 +487,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../img/about-img.jpg) left top no-repeat;
+  background: url(../img/image1.jpg) left top no-repeat;
+  background-size: contain;
 }
 
 #about .about-content {
