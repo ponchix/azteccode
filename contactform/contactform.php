@@ -17,7 +17,7 @@ $message .= "message: ".$_POST['message']."\r\n";
 $message .= "enviado el: ".date('d/m/Y',time());
 
 
-$para = 'ponchorc28@gmail.com';
+$para = 'info@azteccode.tech';
 $asunto = 'message de mi web';
 
 if(mail($para,$asunto,utf8_decode($message),$header))

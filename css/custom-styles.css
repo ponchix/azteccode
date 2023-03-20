@@ -503,3 +503,45 @@ img {
   background-size: cover;
   padding: 80px 0 60px 0;
 }
+.contact_email{
+  font-family: var(--font-tech) !important;
+  font-size: 19px;
+}
+.contact_phone{
+  font-family: var(--font-tech);
+  font-size: 19px;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 60px;
+  right: 10px;
+  background: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  transition: all 300ms ease;
+}
+ .btn-wsp:hover{
+  color: #25d366;
+  background-color: white;
+ }
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+}
