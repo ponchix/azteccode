@@ -174,11 +174,28 @@ color: white;
 
 }
 
+
+
 .section-title{
   font-family: var(--font);
-  letter-spacing: 8px;
+  letter-spacing: 2px;
 }
-.section-description_nosotros{
+.section-description{
+  font-size: 2.5rem;
+}
+.about-title_nosotros{
+  font-family: var(--font-tech);
+  color: black;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+.about-text{
+  font-family: var(--font-tech);
+  font-size: 19px;
+  text-align: justify;
+}
+/* .section-description_nosotros{
   font-size: 3.5rem;
   text-align: center;
 }
@@ -193,7 +210,7 @@ color: white;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
-}
+} */
 
 /* ADVERTISERS SERVICE CARD */
 .sec-icon {
@@ -354,3 +371,4 @@ color: white;
   font-weight: bold;
 
 }
+
