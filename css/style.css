@@ -93,7 +93,7 @@ h6 {
 }
 
 #code_video {
-  object-fit: cover;
+  object-fit:fill;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -504,7 +504,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container {
   background: url(../img/image1.jpg) left top no-repeat;
-  background-size: contain;
+  background-size:contain;
 }
 
 #about .about-content {
